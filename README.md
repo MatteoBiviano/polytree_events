@@ -27,3 +27,6 @@ Main.event_analysis("nodes.csv", "edges.csv")
 
 ### Clone the repo
 Get a copy of this repo using git clone
+```
+git clone https://github.com/MatteoBiviano/polytree_events.git
+```
