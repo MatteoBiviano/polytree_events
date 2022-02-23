@@ -2,24 +2,23 @@
 ### Getting Started
 
 ### Install Julia packages
-```
+```julia
 add CSV
 add DataFrames
 add JSON
 ```
 ### Run
 ### Install Python packages
-```
-streamlit run dashboard.py
+```python
 pip install Julia
 ```
 
 ### Run from python
-```
+```python
 python test_call.py
 ```
 or include this in your code
-```
+```python
 from julia import Main
 Main.include("polytree_events.jl")
 Main.event_analysis("nodes.csv", "edges.csv")
