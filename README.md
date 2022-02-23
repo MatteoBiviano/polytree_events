@@ -1,4 +1,4 @@
-# Dynamic Community Discovery - Check community events after Instant Optimal approach
+# Check community events after Instant Optimal approach
 ### Getting Started
 
 ### Install Julia packages
