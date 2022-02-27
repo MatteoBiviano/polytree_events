@@ -153,7 +153,7 @@ function event_analysis(node_file, edge_file)
 
     r_death = real_death(death_nodes, last_community)
     println("Number of Real Death event (exclude last community): $r_death")
-    d["RealDeath"] = Dict("NumberOf" => n_death, "Nodes" => death_nodes)
+    d["RealDeath"] = Dict("NumberOf" => r_death)
 
     n_merge, merge_nodes = merge(node_csv, edge_csv)
     println("Number of Merge event: $n_merge")
